@@ -3,10 +3,6 @@
     text-align: center;
   }
 
-  .hero__image {
-    display: none;
-  }
-
   .hero__title {
     font-family: var(--title-font);
     font-size: 30px;
@@ -19,8 +15,6 @@
     font-weight: 500;
     font-size: 16px;
     color: var(--text-color);
-
-    // margin-bottom: 37px;
   }
 
   .hero__button {
@@ -62,15 +56,8 @@
 @media screen and (min-width: 768px) {
   .hero {
     text-align: start;
+    padding-bottom: 80px;
   }
-
-  .hero__image {
-    display: none;
-  }
-
-  // .hero__text {
-  //     margin-bottom: 26px;
-  // }
 
   .hero__button {
     margin-bottom: 31px;
@@ -86,16 +73,15 @@
   .hero {
     position: relative;
     text-align: start;
-    margin-left: 0;
-  }
+    padding-bottom: 56px;
+    background-repeat: no-repeat;
+    background-image: url(../images/hero/desktop/hero-desktop-spoon@1x.png);
 
-  .hero__image {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/hero/desktop/hero-desktop-spoon@2x.png);
+    }
   }
-
+  
   .hero__title {
     font-family: var(--title-font);
     font-size: 64px;
