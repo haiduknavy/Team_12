@@ -101,7 +101,7 @@
 }
 
 // MORE AND LESS
-#toggle {
+#toggle1 {
   appearance: none;
 }
 .toggle-more {
@@ -126,13 +126,13 @@
     transition: var(--transition);
   }
 }
-#toggle:checked ~ #more {
+#toggle1:checked ~ #more {
   display: block;
 }
-#toggle:checked ~ .toggle-more {
+#toggle1:checked ~ .toggle-more {
   display: none;
 }
-#toggle:checked ~ .toggle-less {
+#toggle1:checked ~ .toggle-less {
   display: inline-block;
 }
 

@@ -177,7 +177,7 @@
   transform: translatex(-50%);
 }
 // MORE ANA LESS
-#toggle {
+#toggle2 {
   appearance: none;
 }
 .toggle-more {
@@ -200,13 +200,13 @@
     font-size: 18px;
   }
 }
-#toggle:checked ~ #more {
+#toggle2:checked ~ #more {
   display: block;
 }
-#toggle:checked ~ .toggle-more {
+#toggle2:checked ~ .toggle-more {
   display: none;
 }
-#toggle:checked ~ .toggle-less {
+#toggle2:checked ~ .toggle-less {
   display: inline-block;
 }
 
