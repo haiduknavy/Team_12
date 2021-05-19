@@ -11,4 +11,3 @@ import './sass/main.scss';
     })
   })();
 
-  
