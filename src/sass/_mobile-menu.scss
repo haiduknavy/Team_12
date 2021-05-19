@@ -55,11 +55,11 @@
      @media screen and (min-width: 1280px)  {
      display: none;   
      }
+     
 }
 
 .mobile-menu__btn {
-    position: absolute;
-    top: 15px;
+   position: absolute;
     right: 15px;
     z-index: 100;
     width: 30px;
@@ -68,7 +68,7 @@
     border: none;
     transition: fill var(--transition);
 
-    @media screen and (min-width: 768px) {
+   @media screen and (min-width: 768px) {
         top: 26px;
         right: 67px;
     }
@@ -84,9 +84,7 @@
   &.is-open{
     position: fixed;
   }
-
 }
-
 .mobile-menu__icon {
     fill: var(--text-color);
     width: 30px;
@@ -103,3 +101,5 @@
         display: none;
     }
 }
+
+   
