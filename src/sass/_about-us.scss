@@ -146,12 +146,12 @@
   display: inline-block;
 }
 
-@media screen and (min-width: 1280px) {
-  .toggle-more,
-  .toggle-less {
-    display: none;
-  }
-}
+// @media screen and (min-width: 1280px) {
+//   .toggle-more,
+//   .toggle-less {
+//     display: none;
+//   }
+// }
 
 @media screen and (max-width: 1279px) {
   .br {
@@ -242,4 +242,11 @@
 .toggle-less:hover,
 .toggle-less:focus {
   padding-left: 8px;
+}
+
+@media screen and (min-width: 1280px) {
+  .toggle-more,
+  .toggle-less {
+    display: none;
+  }
 }
