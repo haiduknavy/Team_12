@@ -1,5 +1,5 @@
 .about-us {
-  margin-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -8,23 +8,23 @@
   }
 }
 
-// @media screen and (min-width: 1280px) {
-//   .about-us {
-//     margin-left: 71px;
-//     margin-right: 229px;
-//   }
-// }
+@media screen and (min-width: 1280px) {
+  .about-us {
+    margin-left: 71px;
+    margin-right: 229px;
+  }
+}
 
-// @media screen and (min-width: 768px) and (max-width: 1280px) {
-//   .about-us {
-//     margin-left: 12px;
-//     margin-right: 67px;
-//   }
-// }
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .about-us {
+    margin-left: 12px;
+    margin-right: 67px;
+  }
+}
 
 .about-us__main-container {
   display: flex;
-  // justify-content: space-between;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -40,9 +40,8 @@
 
 @media screen and (min-width: 1280px) {
   .about-us__main-container {
-    margin-left: 71px;
-    margin-right: 229px;
-    // max-width: 980px;
+    margin: auto;
+    max-width: 980px;
   }
 }
 
@@ -92,11 +91,19 @@
 
 .section-title {
   text-align: start;
+  line-height: 65px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .section-title {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .section-title {
     margin-top: 87px;
+    margin-bottom: 10px;
   }
 }
 
@@ -104,11 +111,12 @@
 #toggle1 {
   appearance: none;
 }
+
 .toggle-more {
   @media screen and(max-width: 1279px) {
     display: inline-block;
     cursor: pointer;
-    padding: 10px 20px 10px 0;
+    padding: 22px 20px 22px 0;
     color: var(--form-bg);
     font-family: Caveat Brush;
     font-size: 18px;
@@ -119,7 +127,7 @@
   @media screen and(max-width: 1279px) {
     display: none;
     cursor: pointer;
-    padding: 10px 20px 10px 0;
+    padding: 22px 20px 22px 0;
     color: var(--form-bg);
     font-family: Caveat Brush;
     font-size: 18px;
@@ -154,4 +162,19 @@
 .toggle-less:focus,
 .toggle-less:hover {
   color: var(--hover-color);
+}
+
+// .toggle-more {
+//   // border-color: #3498db;
+//   // color: #fff;
+//   // box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+//   -webkit-transition: all 150ms ease-in-out;
+//   transition: all 150ms ease-in-out;
+// }
+// .toggle-more:hover {
+//   box-shadow: 0 0 10px 0 #ac7000 inset, 0 0 10px 4px #865905;
+// }
+
+.checkbox {
+  transition: var(--transition);
 }
