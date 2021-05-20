@@ -51,6 +51,11 @@
     font-size: 18px;
     line-height: 1.22;
     margin-bottom: 21px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
@@ -223,8 +228,12 @@
   }
 }
 .event-feature__img {
-  animation: rotateWithOrigin 4000ms infinite linear;
+  // animation: rotateWithOrigin 4000ms 1 linear;
   position: absolute;
-  transform: translateY(-50%);
+  // transform: translateY(-50%);
   top: -25%;
+}
+
+.event-feature__item:hover .event-feature__img {
+  animation: rotateWithOrigin 2000ms infinite linear;
 }
