@@ -2,14 +2,14 @@
   width: 290px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   position: relative;
   @media screen and (min-width: 768px) {
     width: 626px;
-    margin-bottom: 40px;
+    padding-bottom: 65px;
   }
   @media screen and (min-width: 1280px) {
-    margin-bottom: 68px;
+    padding-bottom: 68px;
   }
 }
 .slider__img {
@@ -45,9 +45,6 @@
 .slick-track {
   display: flex;
 }
-// .slick-slider {
-//   display: flex;
-// }
 .slick-list {
   overflow: hidden;
 }
@@ -69,9 +66,8 @@
   display: block;
   width: 290px;
   font-size: 16px;
-  line-height: 22px;
+  line-height: var(--line-height);
   text-align: center;
-  margin-bottom: 35px;
   @media screen and (min-width: 768px) {
     width: 626px;
   }
@@ -81,8 +77,8 @@
 }
 .slider__counter {
   position: absolute;
-  left: 45%;
-  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%);
   z-index: 10;
   color: var(--form-bg);
   pointer-events: none;
