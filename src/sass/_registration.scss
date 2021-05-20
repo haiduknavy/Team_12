@@ -18,8 +18,7 @@
 }
 
 .registration {
-  margin-top: 30px;
-  margin-bottom: 27px;
+  padding-bottom: 70px;
   text-align: center;
 }
 
@@ -89,7 +88,8 @@
   font-size: 24px;
   text-align: center;
   color: #2e2520;
-  line-height: 2.71;
+  line-height: var(--line-height);
+  margin-bottom: 30px;
   @media screen and (max-width: 767.98px) {
     display: none;
   }
