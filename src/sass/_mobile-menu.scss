@@ -93,6 +93,17 @@
   display: none;
 }
 .is-open {
+
+    .mobile-close {
+        display: block;
+    }
+    .icon-menu {
+        display: none;
+    }
+    
+}
+
+
   .mobile-close {
     display: block;
   }
@@ -100,3 +111,4 @@
     display: none;
   }
 }
+

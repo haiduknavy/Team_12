@@ -11,13 +11,17 @@
 }
 .header__content {
   position: relative;
-   @media screen and (max-width: 1280px) {
+  justify-content: center;
+   @media screen and (max-width: 1279px) {
     display: flex;
     align-items: center;
   }
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    justify-content: flex-start;
+  }
+ 
 }
 .header__logo {
-
   margin: 0 auto;
   padding-top: 7px;
   @media screen and (min-width: 768px) {
