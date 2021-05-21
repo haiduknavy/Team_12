@@ -21,6 +21,7 @@
     &__link {
       display: flex;
       align-items: center;
+      transition: fill var(--transition);
 
       &:hover .footer-contact__icon-tel,
       &:focus .footer-contact__icon-tel,
@@ -34,12 +35,14 @@
       width: 13px;
       height: 13px;
       margin-right: 3px;
+      transition: fill var(--transition);
     }
 
     &__icon-local {
       width: 11px;
       height: 14px;
       margin-right: 3px;
+      transition: fill var(--transition);
     }
   }
 }
