@@ -17,9 +17,12 @@
     }
   }
 
-  &__link:hover,
-  &__link:focus {
-    fill: var(--hover-color);
+  &__link {
+    transition: fill var(--transition);
+    &:hover,
+    &:focus {
+      fill: var(--hover-color);
+    }
   }
 
   &__icon {
