@@ -1,0 +1,15 @@
+.scroll {
+  position: fixed;
+  color: var(--bg-accent);
+  background-color: var(--form-bg);
+  right: 40px;
+  bottom: 100px;
+  padding: 10px 12px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+.scroll:hover {
+  background-color: var(--hover-color);
+}
