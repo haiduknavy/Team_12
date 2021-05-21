@@ -10,6 +10,12 @@ body {
   background-position-y: 0, 0, 100%, 90%;
   background-repeat: no-repeat;
   background-size: auto, 100% 16%, auto, 100% 34.5%;
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/background/mobile/hero-mobile-donut@2x.png),
+      url(../images/background/mobile/mobile-bg-top@2x.png),
+      url(../images/background/mobile/footer-mobile-plate@2x.png),
+      url(../images/background/mobile/mobile-bg-bottom@2x.png);
+  }
   @media screen and (min-width: 768px) {
     background-image: url(../images/background/tablet/hero-tablet-donut@1x.png),
       url(../images/background/tablet/tablet-bg-top@1x.png),
@@ -19,6 +25,13 @@ body {
     background-size: auto, 100% 23%, auto, auto, 100% 49.5%;
     background-position-x: 65%, center, 100%, 100%, center;
     background-position-y: 0, 0, 85%, 100%, 96%;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/background/tablet/hero-tablet-donut@1x.png),
+        url(../images/background/tablet/tablet-bg-top@2x.png),
+        url(../images/background/tablet/registration-tablet-confetti@2x.png),
+        url(../images/background/tablet/footer-tablet-plate@2x.png),
+        url(../images/background/tablet/tablet-bg-bottom@2x.png);
+    }
   }
   @media screen and (min-width: 1280px) {
     background-image: url(../images/background/desktop/hero-desktop-donut@1x.png),
@@ -29,5 +42,12 @@ body {
     background-size: auto, 100% 35%, auto, auto, 100% 45%;
     background-position-x: 100%, center, 100%, 100%, center;
     background-position-y: 0, 0, 90%, 100%, 98%;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/background/desktop/hero-desktop-donut@2x.png),
+        url(../images/background/desktop/desktop-bg-top@2x.png),
+        url(../images/background/desktop/registration-desktop-confetti@2x.png),
+        url(../images/background/desktop/footer-desktop-plate@2x.png),
+        url(../images/background/desktop/desktop-bg-bottom@2x.png);
+    }
   }
 }
