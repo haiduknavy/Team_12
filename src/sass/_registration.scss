@@ -196,6 +196,8 @@
 .img__donut {
   position: absolute;
   z-index: -1;
+  animation: heartBeat 5s linear;
+  animation-iteration-count: 2;
 
   @media screen and (max-width: 767.98px) {
     display: none;
@@ -209,6 +211,7 @@
     left: 80px;
   }
 }
+
 .registration__title--hidden {
   font-family: 'Caveat Brush', sans-serif;
   font-style: normal;
